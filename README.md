@@ -3,7 +3,7 @@ An imuutable quad tree built for Unity
 
 # How to use
 If you want to construct a QuadTree of some elements, simply call:
-```csharep
+```csharp
 QuadTree<T> quadTree = new QuadTree<T>(yourElements, functionThatConvertsElementTypeToVector2, theBoundsOfYourElements, optionalBucketSize);
 ```
 
